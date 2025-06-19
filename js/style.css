@@ -1,0 +1,50 @@
+.block {
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: #141313;
+        color: whitesmoke;
+        margin-bottom: 30px;
+        transition: transform 0.3s;
+        height: 390px;
+        width: 275px; 
+      }
+
+section {
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin: 2rem;
+      background-color: #000000;
+    }
+
+body {
+      font-family: gill sans, sans-serif;
+      background-color: #000000;
+
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: white;
+    }
+
+.block:hover {
+      transform: translateY(-7px);
+    }
+
+h1 {
+    font-family: cursive;
+    font-size:38px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.float-right { 
+         float: right; 
+  } 
+  
+ .float-left { 
+         float: left; 
+  } 
