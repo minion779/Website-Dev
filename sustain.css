@@ -1,0 +1,60 @@
+body {
+
+    background-image:url("https://static.vecteezy.com/system/resources/previews/001/427/155/non_2x/green-leaves-abstract-background-free-vector.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 40px;
+    color: blue;
+
+}
+
+.block {
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: #141313;
+        color: whitesmoke;
+        margin-bottom: 30px;
+        transition: transform 0.3s;
+        height: 390px;
+        width: 275px; 
+      }
+
+section {
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin: 2rem;
+      background-color: #000000;
+    }
+
+.block:hover {
+      transform: translateY(-7px);
+    }
+
+.float-right { 
+         float: right; 
+  } 
+  
+ .float-left { 
+         float: left; 
+  } 
+
+.shadow{
+  box-shadow: 0 15px 20px rgba(255, 255, 255, 0.3);
+}
+
+.banner{
+  background-color: #9e7c1f; 
+  color: #5b1d1d;            
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
