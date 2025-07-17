@@ -3,6 +3,7 @@ body {
     background-image:url("https://static.vecteezy.com/system/resources/previews/001/427/155/non_2x/green-leaves-abstract-background-free-vector.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
     
 }
 
@@ -57,4 +58,29 @@ section {
   font-weight: bold;
   font-size: 20px;
   
+}
+
+.options {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.options li {
+  margin:10px;
+}
+
+button {
+  color: aqua;
+  background-color: beige;
+}
+
+button:hover {
+  font-size: 35px;
+  background-color: chocolate;
+  size: 100px;
+}
+
+p {
+  justify-content: center;
 }
