@@ -78,7 +78,7 @@ button {
 button:hover {
   font-size: 35px;
   background-color: chocolate;
-  size: 100px;
+  transform: scale(1.01); 
 }
 
 p {

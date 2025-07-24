@@ -12,7 +12,21 @@
 <body>
     <center>
         <h1>Test Your Sustainability Knowledge!</h1>
-        <h2 style="font-size: 30px;">Question 1: What does it mean to live sustainably?</h2>
+
+        <label>Choose Difficulty:</label>
+        <select id="difficulty" onchange="loadQuestion()">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+
+        <div id="question-area">
+
+        </div>
+
+        <p id="result1"></p>
+
+        <!-- <h2 style="font-size: 30px;">Question 1: What does it mean to live sustainably?</h2>
     </center>
     <ul class="options">
         <li><button onclick="answerCheck(1, 1, 'result1')"> Making choices that protect the environment for future
@@ -22,7 +36,7 @@
         <li><button onclick="answerCheck(3,1, 'result1')">Using as much energy as possible to support economic
                 growth</button></li>
     </ul>
-    <p id="result1"></p>
+    <p id="result1"></p> -->
 
 </body>
 
