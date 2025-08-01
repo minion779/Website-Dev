@@ -31,8 +31,23 @@ switch(origDay) {
         customDay = 1;
         break;
     default:
-        customDay = -1
+        customDay = -1;
 }
 
+var hour = d.getHours();
+var minutes= d.getMinutes();
+var sec = d.getSeconds();
 
+minutes = minutes < 10 ? '0'+ minutes : minutes;
+sec = sec < 10 ? '0'+ sec : sec;
 
+var session = hour >= 12? PM:AM;
+hour = hour%12;
+hour = hour? hour:12;
+
+var month=d.getMonth();
+var dayName = dys[origDay];
+
+document.getElementById("mnth").innerHTML = "Month " + m[month];
+document.getElementById("wday").innerHTML = "Day " + dayName + "Orignal day number" + origDay + "Custom day number" + customDay;
+document.getElementById("pan").innerHTML = "Time " + hour +":"+ minutes + ":" + sec + " "+ session;
