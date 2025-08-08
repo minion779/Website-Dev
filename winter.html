@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Photo Gallery</title>
+    <link href="summer.css" rel="stylesheet">
+    <script src="spring.js"></script>
+</head>
+
+<body>
+
+    <h2>Photo Gallery</h2>
+
+    <img id="main-image" src="Pictures/winter.jpg" alt="Main Scene">
+    <p id="caption" style="color: lightblue;">This is a Winter scene</p>
+
+    <div class="thumbnails">
+        <img src="Pictures/Summer.jpg" alt="Summer" onclick="changeImage('Summer.jpg', 'This is a Summer scene')">
+        <img src="Pictures/Autumn.jpg" alt="Autumn" onclick="changePic('Autumn.jpg', 'This is a Autumn scene')">
+        <img src="Pictures/spring.jpg" alt="Spring" onclick="alterImage('spring.jpg', 'This is a Spring scene')">
+        <img src="Pictures/winter.jpg" alt="Winter" onclick="alterPic('winter.jpg', 'This is a Winter scene')">
+    </div>

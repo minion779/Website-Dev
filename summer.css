@@ -1,0 +1,42 @@
+ body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #0a0909;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      color: darkgreen;
+    }
+
+    #main-image {
+      width: 80%;
+      height: 600px;
+      border: 4px solid rgb(9, 129, 177);
+      margin-bottom: 10px;
+    }
+
+    #caption {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .thumbnails img {
+      width: 120px;
+      height: 80px;
+      margin: 5px;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+
+    .thumbnails :hover {
+     border-radius: 20px;
+    }
+
+    
+
+
+    .thumbnails img:hover {
+      border: 2px solid darkgreen;
+    }
