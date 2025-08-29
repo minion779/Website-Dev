@@ -89,8 +89,43 @@ ul {
     position:sticky;
     z-index:10; 
     list-style:none;
+    background: #232346;
 }
 
 li {
     display: inline;
+    
 }
+
+li a {
+  color: white;
+  padding: 10px;
+
+}
+
+li a:hover {
+  color: red;
+}
+
+.sizeing img{
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+
+.sizeing img:hover {
+  border: 3px solid white;
+  border-radius: 30px;
+  border:20%
+}
+
+.darker {
+background-color: #b2b2d1;
+}
+
+.lighter {
+background-color: #b1e6f0;
+}
+
+
