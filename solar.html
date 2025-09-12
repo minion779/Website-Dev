@@ -6,16 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar System</title>
     <link href="system.css" rel="stylesheet">
-    <script src="universe.js"></script>
 </head>
 
 <body>
+    <script src="universe.js"></script>
+
     <h1 style="text-align:center;">Our Solar System: Hover over a planet to know more!</h1>
     <center>
 
         <div class="container">
-            <div class="row" id="mercury" onmouseout="showDetails">
+            <div class="row" id="mercury" onmouseover="showDetails">
 
+            </div>
+            <div class="row" id="venus" onmouseover="showDetails" style="margin-top: 20px;">
+                <div id="infos">
+                    <div>
+                        Name:<span id="name"></span>
+
+                    </div>
+                    <div>
+                        Circumference:<span id="circ"></span>
+                    </div>
+
+                    <div>Distance <span id="dist"></span>
+                    </div>
+
+                </div>
+                <div id="info2">
+                    <span id="info"></span>
+                </div>
             </div>
         </div>
     </center>

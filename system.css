@@ -131,3 +131,32 @@ background-size:cover;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#venus {
+    background-image: url("https://media.istockphoto.com/id/1083388898/photo/planet-venus-isolated.jpg?s=612x612&w=0&k=20&c=1z_b165s0VqiBiLevL-02r4VgO3lpNWiXj7MNVi0tg8=");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#infos {
+    visibility: hidden;
+    background-color: #2b8bf2;
+    float: left;
+     opacity: 0.9;
+     width: 200px;
+     height: 100px;
+}
+
+#info2 {
+    position: fixed;
+    visibility: hidden;
+    background-color: #2b8bf2;
+    float: right;
+     opacity: 0.9;
+     width: 200px;
+     height: 100px;
+}
+
+#info {
+    text-align: justify;
+    font-style: italic;
+}
