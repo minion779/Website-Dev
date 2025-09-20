@@ -3,4 +3,12 @@ let circumf = ["15329 km","38025 km","40075 km","21344 km"];
 let distance = ["58m km", "108m km", "149.6m km", "228m km"];
 let information = ["Mercury is the smallest and innermost planet of our Solar System, a rocky world named for the swift Roman messenger god. It has a cratered surface similar to Earth's Moon and a huge metallic core, but a thin atmosphere that causes extreme temperature swings from scorching hot during its long day to extremely cold at night.", "Venus is the second planet from the Sun, a rocky, Earth-sized planet known as Earth's twin due to its similar size and mass, but with a significantly different, hotter, and denser atmosphere. This dense, toxic atmosphere creates a runaway greenhouse effect, making Venus the hottest planet in the solar system, with surface temperatures hot enough to melt lead.", "Key features of Earth include its unique ability to maintain liquid surface water, a protective atmosphere that regulates temperature, and active tectonic plates that shape its surface. Earth completes one rotation in approximately 24 hours and orbits the Sun in about 365 days, a cycle that also creates seasons due to the planet's axial tilt.", "Named after the Roman god of war, it is also called the Red Planet due to the rust-colored iron oxide prevalent in its soil and atmosphere. Though it is a cold, desert world today, missions by NASA and other space agencies have found extensive evidence that Mars was once much warmer and had a thicker atmosphere, with rivers, lakes, and possibly oceans. "];
 
-showDetails
+function showDetails(num)
+{
+document.getElementById("infos").style.visibility="visible";
+document.getElementById("info2").style.visibility="visible";
+document.getElementById("name").innerHTML=planets[num];
+document.getElementById("circ").innerHTML=circumf[num];
+document.getElementById("dist").innerHTML=distance[num];
+document.getElementById("info2").innerHTML=information[num];
+}
