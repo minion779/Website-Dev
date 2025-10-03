@@ -19,6 +19,5 @@ function Showtime() {
 
     var time = hour + ":" + min + ":" + sec + session;
     document.getElementById("clockDisplay").innerHTML = time;
-
-setInterval(Showtime, 1000)
 }
+setInterval(Showtime, 1000)
