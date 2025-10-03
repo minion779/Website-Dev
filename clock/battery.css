@@ -1,0 +1,18 @@
+body {
+    background:rgb(139, 139, 61);
+}
+#click {
+    margin-top: 300px;
+    margin-left: 900px;
+    height:80px;
+    width: 120px;
+    font-size: 30px;
+}
+#clockDisplay {
+    text-align: center;
+    margin-top: 300px;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
